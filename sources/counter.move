@@ -3,7 +3,7 @@ module movectf::counter {
     use sui::object::{Self, UID};
     use sui::tx_context::{Self, TxContext};
 
-    const MaxCounter: u64 = 3;
+    const MaxCounter: u64 = 10;
     const ENoAttemptLeft: u64 = 0;
 
     friend movectf::potato;
